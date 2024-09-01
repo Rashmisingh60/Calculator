@@ -1,0 +1,68 @@
+  *{                     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+body{
+    width: 100%;
+    height: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://imgs.search.brave.com/Fr8iu6_By6WwylnAjJyeMduV5M0lHVdaDMcQ7UNURsQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/Ymx1c2guY29tL2Nk/bi9zaG9wL2ZpbGVz/L0VsZWFub3JXYWxs/cGFwZXJOdWV0cmFs/Qm9ob1RleHR1cmVk/UHJpbnRfNS5wbmc_/dj0xNzE0NTg1NzUw/JndpZHRoPTIwNDg);
+    background-size: cover;
+}   
+.calculator{
+    padding: 70px;
+    border: 6px solid #000;
+    border-radius:30px;
+    box-shadow: 25px 25px 25px rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.7)  
+
+}
+input{
+    width: 520px;
+    padding: 20px;  
+    margin: 50px;
+    background: rgba(255,255,255,0.3);
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.4);
+    font-size:80px;
+    text-align:right ;
+    color: #fff;
+    border: solid 10px rgba(0, 0, 0, 0.4);  
+    border-radius: 45px;  
+    text-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+}
+input::placeholder{
+    color:#fff;
+}
+button{
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7) ;
+    font-size: 24px;
+    cursor: pointer;
+    border: solid 5px rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.ac, .del{
+    font-size: 20px;
+}
+button:hover{
+    color: #fff;
+    background: #f67c14;
+
+}
+.equalbutton{
+    background: #f67c14;
+}
+.operator{
+    color: #f67c14;
+}
